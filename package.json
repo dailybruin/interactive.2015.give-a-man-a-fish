@@ -1,0 +1,29 @@
+{
+  "name": "bob-2015-india",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daily-bruin/bob-2015-india.git"
+  },
+  "author": "Harrison Liddiard <omniaura5@gmail.com> (http://harrisonliddiard.com)",
+  "license": "AGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/daily-bruin/bob-2015-india/issues"
+  },
+  "homepage": "https://github.com/daily-bruin/bob-2015-india#readme",
+  "dependencies": {
+    "jquery": "^2.1.4",
+    "react": "^0.13.3",
+    "superagent": "^1.4.0"
+  },
+  "devDependencies": {
+    "browserify": "^11.2.0",
+    "reactify": "^1.1.1",
+    "scssify": "^0.3.6"
+  }
+}
