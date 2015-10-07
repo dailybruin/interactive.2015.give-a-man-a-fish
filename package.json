@@ -19,7 +19,8 @@
   "dependencies": {
     "jquery": "^2.1.4",
     "react": "^0.13.3",
-    "superagent": "^1.4.0"
+    "superagent": "^1.4.0",
+    "yamljs": "^0.2.4"
   },
   "devDependencies": {
     "babelify": "^6.3.0",
