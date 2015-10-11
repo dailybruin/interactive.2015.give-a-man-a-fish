@@ -8,12 +8,14 @@ const Nav = React.createClass({
 
   render() {
     let chapters = this.props.chapters.map((chapter, index) => {
-      return (
-        <li key={index}>
-          <span className="number">{index + 1}</span>
-          {chapter.title}
-        </li>
-      );
+      if (chapter.released) {
+        return (
+          <li key={index}>
+            <span className="number">{index + 1}</span>
+            {chapter.title}
+          </li>
+        );
+      }
     });
     return (
       <nav>

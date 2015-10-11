@@ -16,9 +16,11 @@ const ChapterList = React.createClass({
 
   render() {
     let chapters = this.props.chapters.map((chapter, index) => {
-      return (
-        <Chapter chapter={chapter} key={index} />
-      );
+      if (chapter.released) {
+        return (
+          <Chapter chapter={chapter} key={index} />
+        );
+      }
     });
     return (
       <section id="chapters">

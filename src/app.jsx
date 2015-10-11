@@ -5,6 +5,8 @@ import TableOfContents from './components/TableOfContents.jsx'
 import ChapterList from './components/ChapterList.jsx'
 import Nav from './components/Nav.jsx'
 
+import './app.scss'
+
 const App = React.createClass({
 
   getInitialState() {
@@ -16,7 +18,7 @@ const App = React.createClass({
       <div id="app">
         <Nav chapters={this.state.chapters} />
         <header>
-          <video src={this.state.video} autoPlay loop />
+          <video src={'/assets/video'+this.state.video} autoPlay loop />
           <h1>{this.state.title}</h1>
           <h2>{this.state.descripton}</h2>
           <span className="authors">

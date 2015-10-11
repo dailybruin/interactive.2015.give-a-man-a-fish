@@ -10,7 +10,7 @@ const TableOfContents = React.createClass({
   render() {
     let chapters = this.props.chapters.map((chapter, index) => {
       return (
-        <li key={index}>
+        <li key={index} className={chapter.released ? '' : 'unreleased'}>
           <span className="number">{index + 1}</span>
           {chapter.title}
         </li>

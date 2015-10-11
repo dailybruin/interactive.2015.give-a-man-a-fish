@@ -21,7 +21,7 @@ const Chapter = React.createClass({
     return (
       <section className="chapter">
         <div className="intro">
-          <video src={this.props.chapter.video} autoPlay loop />
+          <video src={'/assets/video/'+this.props.chapter.video} autoPlay loop />
           <h2>{this.props.chapter.title}</h2>
         </div>
         <div className="story">
