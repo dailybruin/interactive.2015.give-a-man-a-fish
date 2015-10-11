@@ -1,10 +1,9 @@
 import React from 'react'
 
-const TableOfContents = React.createClass({
+const Nav = React.createClass({
 
   propTypes: {
-    chapters: React.PropTypes.array.isRequired,
-    description: React.PropTypes.string.isRequired
+    chapters: React.PropTypes.array.isRequired
   },
 
   render() {
@@ -17,15 +16,14 @@ const TableOfContents = React.createClass({
       );
     });
     return (
-      <section className="table-of-contents">
+      <nav>
         <ul>
           {chapters}
         </ul>
-        <p className="description">{this.props.description}</p>
-      </section>
+      </nav>
     );
   }
 
 });
 
-module.exports = TableOfContents;
+module.exports = Nav;

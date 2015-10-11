@@ -2,8 +2,9 @@
   "name": "bob-2015-india",
   "version": "1.0.0",
   "description": "",
-  "main": "app.js",
+  "main": "src/app.jsx",
   "scripts": {
+    "start": "watchify -v -d -o dist/bundle.js -t babelify -t scssify -t reactify src/app.jsx",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -17,15 +18,16 @@
   },
   "homepage": "https://github.com/daily-bruin/bob-2015-india#readme",
   "dependencies": {
+    "flexslider": "^2.5.0",
     "jquery": "^2.1.4",
     "react": "^0.13.3",
-    "superagent": "^1.4.0",
     "yamljs": "^0.2.4"
   },
   "devDependencies": {
     "babelify": "^6.3.0",
     "browserify": "^11.2.0",
     "reactify": "^1.1.1",
-    "scssify": "^0.3.6"
+    "scssify": "^0.3.6",
+    "watchify": "^3.4.0"
   }
 }
