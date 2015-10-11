@@ -15,13 +15,16 @@ const App = React.createClass({
   },
 
   render() {
+    function createMarkup(html) {
+      return {__html: html};
+    };
     return (
       <div id="app">
         <Nav chapters={this.state.chapters} />
         <header>
           <video src={'/assets/video'+this.state.video} autoPlay loop />
           <h1>{this.state.title}</h1>
-          <h2>{marked(this.state.descripton)}</h2>
+          <h2 dangerouslySetInnerHTML={createMarkup(marked(this.state.description))} />
           <span className="authors">
             {this.state.byline}
           </span>
@@ -29,9 +32,7 @@ const App = React.createClass({
         <TableOfContents chapters={this.state.chapters}
                          description={this.state.description} />
         <ChapterList chapters={this.state.chapters} />
-        <footer>
-          {marked(this.state.acknowledgements)}
-        </footer>
+        <footer dangerouslySetInnerHTML={createMarkup(marked(this.state.acknowledgements))} />
       </div>
     );
   }

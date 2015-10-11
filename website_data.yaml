@@ -4,39 +4,39 @@ byline: Reporting by Jonaki Mehta. Photos by Sonja Bartlett.
 video:
 chapters:
     - title:
-      description:
+      description: test description
       video:
       audio:
       photos:
         - file:
           caption:
-      transcript:
+      transcript: test transcript
       released:
     - title:
-      description:
+      description: test description
       video:
       audio:
       photos:
         - file:
           caption:
-      transcript:
+      transcript: test transcript
       released:
     - title:
-      description:
+      description: test description
       video:
       audio:
       photos:
         - file:
           caption:
-      transcript:
+      transcript: test transcript
       released:
     - title:
-      description:
+      description: test description
       video:
       audio:
       photos:
         - file:
           caption:
-      transcript:
+      transcript: test transcript
       released:
-acknowledgements:
+acknowledgements: "test **text** here"
