@@ -1,5 +1,6 @@
 import React from 'react'
 import YAML from 'yamljs'
+import marked from 'marked'
 
 import TableOfContents from './components/TableOfContents.jsx'
 import ChapterList from './components/ChapterList.jsx'
@@ -20,7 +21,7 @@ const App = React.createClass({
         <header>
           <video src={'/assets/video'+this.state.video} autoPlay loop />
           <h1>{this.state.title}</h1>
-          <h2>{this.state.descripton}</h2>
+          <h2>{marked(this.state.descripton)}</h2>
           <span className="authors">
             {this.state.byline}
           </span>
@@ -29,7 +30,7 @@ const App = React.createClass({
                          description={this.state.description} />
         <ChapterList chapters={this.state.chapters} />
         <footer>
-          {this.state.acknowledgements}
+          {marked(this.state.acknowledgements)}
         </footer>
       </div>
     );

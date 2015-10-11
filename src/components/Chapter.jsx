@@ -25,7 +25,7 @@ const Chapter = React.createClass({
           <h2>{this.props.chapter.title}</h2>
         </div>
         <div className="story">
-          <div dangerouslySetInnerHTML={createMarkup(this.props.chapter.transcript)} />
+          <div dangerouslySetInnerHTML={createMarkup(marked(this.props.chapter.transcript))} />
           <div className="slider">
             <ul className="slides">
               {slides}
