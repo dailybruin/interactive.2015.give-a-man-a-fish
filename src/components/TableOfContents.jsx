@@ -1,4 +1,9 @@
 import React from 'react'
+import marked from 'marked'
+
+marked.setOptions({
+  breaks: true
+});
 
 const TableOfContents = React.createClass({
 
@@ -8,10 +13,14 @@ const TableOfContents = React.createClass({
   },
 
   render() {
+    console.log(this.props.description);
+    function createMarkup(html) {
+      return {__html: html};
+    };
     let chapters = this.props.chapters.map((chapter, index) => {
       return (
         <li key={index} className={chapter.released ? '' : 'unreleased'}>
-          <span className="number">{index + 1}</span>
+          <span className="chapter-number">{index + 1}</span>
           {chapter.title}
         </li>
       );
@@ -21,7 +30,8 @@ const TableOfContents = React.createClass({
         <ul>
           {chapters}
         </ul>
-        <p className="description">{this.props.description}</p>
+        <div className="description"
+             dangerouslySetInnerHTML={createMarkup(marked(this.props.description))} />
       </section>
     );
   }

@@ -1,10 +1,25 @@
 import React from 'react'
 import marked from 'marked'
 
+marked.setOptions({
+  breaks: true
+});
+
 const Chapter = React.createClass({
 
   propTypes: {
     chapter: React.PropTypes.object.isRequired
+  },
+
+  getInitialState() {
+    return {
+      transcriptVisible: false
+    };
+  },
+
+  toggleTranscriptVisible() {
+    let transcriptVisible = this.state.transcriptVisible;
+    this.setState({transcriptVisible: !transcriptVisible});
   },
 
   render() {
@@ -19,18 +34,28 @@ const Chapter = React.createClass({
         </li>
       );
     });
+    let transcriptButtonText;
+    let transcriptClassName = "transcript";
+    if (this.state.transcriptVisible) {
+      transcriptButtonText = <span><i className="fa fa-picture-o"></i> View photos</span>;
+      transcriptClassName += " visible";
+    } else {
+      transcriptButtonText = <span><i className="fa fa-bars"></i> View transcript</span>;
+    }
     return (
       <section className="chapter">
         <div className="intro">
-          <video src={this.props.chapter.video} autoPlay loop />
+          <div className="video-wrapper">
+            <video src={this.props.chapter.video} autoPlay loop />
+          </div>
           <h2>{this.props.chapter.title}</h2>
           <p className="description">{this.props.chapter.description}</p>
         </div>
         <div className="story">
-          <button className="view-transcript">
-            <i className="fa fa-bars"></i> View transcript
+          <button className="view-transcript" onClick={this.toggleTranscriptVisible}>
+            {transcriptButtonText}
           </button>
-          <div className="transcript"
+          <div className={transcriptClassName}
                dangerouslySetInnerHTML={createMarkup(marked(this.props.chapter.transcript))} />
           <div className="slider">
             <ul className="slides">

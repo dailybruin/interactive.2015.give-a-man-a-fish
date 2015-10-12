@@ -11,7 +11,7 @@ const Nav = React.createClass({
       if (chapter.released) {
         return (
           <li key={index}>
-            <span className="number">{index + 1}</span>
+            <span className="chapter-number">{index + 1}</span>
             {chapter.title}
           </li>
         );

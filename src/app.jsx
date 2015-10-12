@@ -8,6 +8,10 @@ import Nav from './components/Nav.jsx'
 
 import './app.scss'
 
+marked.setOptions({
+  breaks: true
+});
+
 const App = React.createClass({
 
   getInitialState() {
@@ -22,13 +26,13 @@ const App = React.createClass({
       <div id="app">
         <Nav chapters={this.state.chapters} />
         <header>
-          <video src={this.state.video} autoPlay loop />
+          <div className="video-wrapper">
+            <video src={this.state.video} autoPlay loop />
+          </div>
           <h1>{this.state.title}</h1>
           <span className="authors">
             {this.state.byline}
           </span>
-          <div className="description"
-               dangerouslySetInnerHTML={createMarkup(marked(this.state.description))} />
           <div className="continue-arrow">
             <i className="fa fa-chevron-down"></i>
           </div>
