@@ -42,6 +42,9 @@ const App = React.createClass({
           <div className="video-wrapper">
             <video src={this.state.video} autoPlay loop />
           </div>
+          <a href="http://dailybruin.com" id="mainsite-refer">
+            <img src="/assets/img/db_logo.svg" />
+          </a>
           <h1>{this.state.title}</h1>
           <span className="authors">
             {this.state.byline}

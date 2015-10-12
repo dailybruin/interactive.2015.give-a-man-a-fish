@@ -13,11 +13,12 @@ chapters:
       video: http://www.quirksmode.org/html5/videos/big_buck_bunny.mp4
       audio: http://a.tumblr.com/tumblr_mdb4ykdxxF1qcntxko1.mp3
       photos:
-        - file: https://i.imgur.com/5yeBVeM.jpg
+        - file: web._01_DSCF7606.jpg
           caption: test caption
-        - file: https://i.imgur.com/5yeBVeM.jpg
-          caption: test caption
-      transcript: test transcript
+        - file: web._03_DSCF8938.jpg
+          caption: test caption 2
+      transcript: >
+        test transcript
       released: Yes
     - title: Chapter 2 title
       description: test description
@@ -26,7 +27,8 @@ chapters:
       photos:
         - file:
           caption:
-      transcript: test transcript
+      transcript: >
+        test transcript
       released: Yes
     - title: Chapter 3 title
       description: test description
@@ -35,7 +37,8 @@ chapters:
       photos:
         - file:
           caption:
-      transcript: test transcript
+      transcript: >
+        test transcript
       released: Yes
     - title: Chapter 4 title
       description: test description
@@ -44,8 +47,9 @@ chapters:
       photos:
         - file:
           caption:
-      transcript: test transcript
-      released: 
+      transcript: >
+        test transcript
+      released:
 acknowledgements: >
     ## Acknowledgements
 

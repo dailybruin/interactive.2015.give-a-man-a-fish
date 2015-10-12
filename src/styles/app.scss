@@ -376,6 +376,18 @@ button.view-transcript {
     }
 }
 
+#mainsite-refer {
+    position: absolute;
+    top: 15px;
+    left: 0;
+    background-color: white;
+    padding: 0.5em 0.5em 0;
+
+    img {
+        width: 100px;
+    }
+}
+
 @media (max-width: 800px) {
     #table-of-contents {
         ul, .description {

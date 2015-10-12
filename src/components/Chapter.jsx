@@ -31,7 +31,7 @@ const Chapter = React.createClass({
       return (
         <li key={index}>
           <p className="caption">{photo.caption}</p>
-          <img src={photo.file} />
+          <img src={'/assets/img/'+(this.props.index+1)+'/'+photo.file} />
         </li>
       );
     });
