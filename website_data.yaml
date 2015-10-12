@@ -3,7 +3,7 @@ description: >
     description lorem ispum
 
     here's some more description
-    
+
     describe
 byline: Reporting by Jonaki Mehta. Photos by Sonja Bartlett.
 video: http://www.quirksmode.org/html5/videos/big_buck_bunny.mp4
@@ -11,10 +11,12 @@ chapters:
     - title: Chapter 1 title
       description: test description
       video: http://www.quirksmode.org/html5/videos/big_buck_bunny.mp4
-      audio:
+      audio: http://a.tumblr.com/tumblr_mdb4ykdxxF1qcntxko1.mp3
       photos:
-        - file:
-          caption:
+        - file: https://i.imgur.com/5yeBVeM.jpg
+          caption: test caption
+        - file: https://i.imgur.com/5yeBVeM.jpg
+          caption: test caption
       transcript: test transcript
       released: Yes
     - title: Chapter 2 title

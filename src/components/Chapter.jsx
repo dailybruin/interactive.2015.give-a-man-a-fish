@@ -8,7 +8,8 @@ marked.setOptions({
 const Chapter = React.createClass({
 
   propTypes: {
-    chapter: React.PropTypes.object.isRequired
+    chapter: React.PropTypes.object.isRequired,
+    index: React.PropTypes.number.isRequired
   },
 
   getInitialState() {
@@ -29,24 +30,24 @@ const Chapter = React.createClass({
     let slides = this.props.chapter.photos.map((photo, index) => {
       return (
         <li key={index}>
-          <img src={photo.file} />
           <p className="caption">{photo.caption}</p>
+          <img src={photo.file} />
         </li>
       );
     });
     let transcriptButtonText;
     let transcriptClassName = "transcript";
     if (this.state.transcriptVisible) {
-      transcriptButtonText = <span><i className="fa fa-picture-o"></i> View photos</span>;
+      transcriptButtonText = <span><i className="fa fa-picture-o"></i> Back to photos</span>;
       transcriptClassName += " visible";
     } else {
       transcriptButtonText = <span><i className="fa fa-bars"></i> View transcript</span>;
     }
     return (
-      <section className="chapter">
+      <section className="chapter" id={"chapter"+(this.props.index+1)}>
         <div className="intro">
           <div className="video-wrapper">
-            <video src={this.props.chapter.video} autoPlay loop />
+            <video src={this.props.chapter.video} autoPlay loop muted />
           </div>
           <h2>{this.props.chapter.title}</h2>
           <p className="description">{this.props.chapter.description}</p>
@@ -62,7 +63,9 @@ const Chapter = React.createClass({
               {slides}
             </ul>
           </div>
-          <audio className="mejs-player" src={this.props.chapter.audio} />
+          <audio className="mejs-player" width="100%">
+            <source type="audio/mp3" src={this.props.chapter.audio} />
+          </audio>
         </div>
 
       </section>

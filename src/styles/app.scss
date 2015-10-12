@@ -91,6 +91,12 @@ nav {
     }
 }
 
+footer {
+    text-align: center;
+    padding: 2em;
+    background-color: $PURPLE_DARK;
+}
+
 button.view-transcript {
     font-size: 1em;
     background-color: rgba(0,0,0, 0.7);
@@ -102,6 +108,7 @@ button.view-transcript {
     right: 0;
     cursor: pointer;
     z-index: 100;
+    margin: 1em;
 
     &:hover {
         background-color: rgba(0,0,0, 0.9);
@@ -136,13 +143,65 @@ button.view-transcript {
 }
 
 .chapter {
+    h2 {
+        font-size: 3em;
+    }
+    
     .intro {
         padding: 10% 5%;
         overflow: hidden;
     }
 
-    h2 {
-        font-size: 3em;
+    .story {
+        background-color: white;
+    }
+
+    .slider {
+        &:hover .flex-prev { opacity: 0.7; left: 10px; }
+        &:hover .flex-next { opacity: 0.7; right: 10px; }
+
+        li {
+            background-color: white;
+        }
+
+        img {
+            max-width: 100%;
+            max-height: calc(100vh - 30px);
+            height: auto;
+            padding: 3em;
+            margin: 0 auto;
+            display: block;
+        }
+
+        .caption {
+            position: absolute;
+            margin: 0;
+            padding: 1em 2em;
+            color: gray;
+            text-shadow: none;
+        }
+    }
+
+    .mejs-container {
+        position: absolute;
+        left: 0;
+
+        .mejs-controls {
+            background: #333;
+            text-shadow: none;
+
+            .mejs-time {
+                color: gray;
+            }
+
+            .mejs-time-total {
+                background: #222;
+            }
+
+            .mejs-time-loaded {
+                background: #444;
+            }
+        }
     }
 }
 
@@ -150,12 +209,13 @@ button.view-transcript {
     position: absolute;
     width: 100%;
     height: 100%;
-    padding: 1em;
+    padding: 2em 1em;
     top: 0;
     left: 0;
     background-color: rgba(0,0,0, 0.8);
     display: none;
     overflow-y: auto;
+    z-index: 50;
 
     &.visible {
         display: block;
@@ -165,6 +225,11 @@ button.view-transcript {
         max-width: 640px;
         margin: 0 auto;
     }
+}
+
+.mejs-container {
+    position: absolute;
+    bottom: 0;
 }
 
 #table-of-contents {

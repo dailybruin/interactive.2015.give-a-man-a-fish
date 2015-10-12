@@ -6,7 +6,7 @@ import TableOfContents from './components/TableOfContents.jsx'
 import ChapterList from './components/ChapterList.jsx'
 import Nav from './components/Nav.jsx'
 
-import './app.scss'
+import './styles/app.scss'
 
 marked.setOptions({
   breaks: true
@@ -27,7 +27,7 @@ const App = React.createClass({
         <Nav chapters={this.state.chapters} />
         <header>
           <div className="video-wrapper">
-            <video src={this.state.video} autoPlay loop />
+            <video src={this.state.video} autoPlay loop muted />
           </div>
           <h1>{this.state.title}</h1>
           <span className="authors">

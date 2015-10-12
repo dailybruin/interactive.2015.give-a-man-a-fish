@@ -10,7 +10,8 @@ const ChapterList = React.createClass({
 
   componentDidMount() {
     $('.slider').flexslider({
-      animation: 'slide'
+      animation: 'fade',
+      controlNav: false
     });
   },
 
@@ -18,7 +19,7 @@ const ChapterList = React.createClass({
     let chapters = this.props.chapters.map((chapter, index) => {
       if (chapter.released) {
         return (
-          <Chapter chapter={chapter} key={index} />
+          <Chapter chapter={chapter} key={index} index={index} />
         );
       }
     });
