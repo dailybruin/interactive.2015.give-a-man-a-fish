@@ -115,7 +115,7 @@ nav#menu {
     }
 
     .chapter-number {
-        background-color: transparent; // needed bc background colors get set in markup
+        background-color: rgba(0,0,0, 0.2);
         margin-right: 0;
         margin-left: 0.5em;
     }
