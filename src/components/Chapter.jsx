@@ -41,13 +41,13 @@ const Chapter = React.createClass({
       transcriptButtonText = <span><i className="fa fa-picture-o"></i> Back to photos</span>;
       transcriptClassName += " visible";
     } else {
-      transcriptButtonText = <span><i className="fa fa-bars"></i> View transcript</span>;
+      transcriptButtonText = <span><i className="fa fa-bars"></i> Read transcript</span>;
     }
     return (
       <section className="chapter" id={"chapter"+(this.props.index+1)}>
         <div className="intro">
           <div className="video-wrapper">
-            <video src={this.props.chapter.video} autoPlay loop muted />
+            <video src={this.props.chapter.video} autoPlay loop />
           </div>
           <h2>{this.props.chapter.title}</h2>
           <p className="description">{this.props.chapter.description}</p>
@@ -63,7 +63,7 @@ const Chapter = React.createClass({
               {slides}
             </ul>
           </div>
-          <audio className="mejs-player" width="100%">
+          <audio className="mejs-player" width="50%">
             <source type="audio/mp3" src={this.props.chapter.audio} />
           </audio>
         </div>

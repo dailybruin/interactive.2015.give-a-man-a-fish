@@ -18,10 +18,13 @@ const TableOfContents = React.createClass({
       return {__html: html};
     };
     let chapters = this.props.chapters.map((chapter, index) => {
+      let chapterNumberClassName = "chapter-number " + "chapter" + (index + 1);
       return (
         <li key={index} className={chapter.released ? '' : 'unreleased'}>
-          <span className="chapter-number">{index + 1}</span>
-          {chapter.title}
+          <a href={"#chapter"+(index+1)}>
+            <span className={chapterNumberClassName}>{index + 1}</span>
+            {chapter.title}
+          </a>
         </li>
       );
     });

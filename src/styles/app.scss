@@ -1,6 +1,8 @@
 @import 'globals';
 @import 'animate';
 
+@include chapter-colors;
+
 html {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -23,6 +25,14 @@ body {
     color: white;
     background-color: black;
     text-shadow: 0 0 2px black;
+}
+
+a {
+    color: initial;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    line-height: 1;
 }
 
 header, section, footer {
@@ -70,14 +80,49 @@ header {
     .description {
         margin: 2em 0;
     }
+
+    .instructions {
+        p {
+            margin: 20% 0 0;
+        }
+
+        i {
+            font-size: 3em;
+        }
+    }
 }
 
-nav {
+nav#menu {
     position: fixed;
-    background-color: black;
-    height: 100vh;
-    padding: 4em 2em;
-    display: none;
+    right: 0;
+    top: 0;
+    text-align: right;
+    background-color: transparent;
+    padding: 2em;
+    z-index: 500;
+
+    &:hover {
+        background-color: rgba(0,0,0, 0.8);
+        @include chapter-colors;
+
+        .chapter-title {
+            display: inline;
+        }
+    }
+
+    a {
+        color: white;
+    }
+
+    .chapter-number {
+        background-color: transparent; // needed bc background colors get set in markup
+        margin-right: 0;
+        margin-left: 0.5em;
+    }
+
+    .chapter-title {
+        display: none;
+    }
 
     ul {
         list-style-type: none;
@@ -95,6 +140,10 @@ footer {
     text-align: center;
     padding: 2em;
     background-color: $PURPLE_DARK;
+
+    .copyright {
+        font-size: 0.8em;
+    }
 }
 
 button.view-transcript {
@@ -104,11 +153,11 @@ button.view-transcript {
     color: white;
     border: 1px solid rgba(255,255,255, 0.5);
     position: absolute;
-    top: 0;
+    bottom: 60px;
     right: 0;
     cursor: pointer;
     z-index: 100;
-    margin: 1em;
+    margin: 0.7em;
 
     &:hover {
         background-color: rgba(0,0,0, 0.9);
@@ -138,15 +187,16 @@ button.view-transcript {
     display: inline-block;
     text-align: center;
     border-radius: 50%;
-    margin: 0 0.25em;
+    margin-right: 0.5em;
     color: white;
+    border: 1px solid rgba(255,255,255, 0.5);
 }
 
 .chapter {
     h2 {
         font-size: 3em;
     }
-    
+
     .intro {
         padding: 10% 5%;
         overflow: hidden;
@@ -166,17 +216,16 @@ button.view-transcript {
 
         img {
             max-width: 100%;
-            max-height: calc(100vh - 30px);
+            max-height: calc(100vh - 60px);
             height: auto;
-            padding: 3em;
+            padding: 1em 3em 4em;
             margin: 0 auto;
             display: block;
         }
 
         .caption {
-            position: absolute;
             margin: 0;
-            padding: 1em 2em;
+            padding: 1em 2em 0;
             color: gray;
             text-shadow: none;
         }
@@ -185,21 +234,86 @@ button.view-transcript {
     .mejs-container {
         position: absolute;
         left: 0;
+        transform: scale(2);
+        left: 25vw;
+        bottom: 15px;
+        z-index: 200;
 
         .mejs-controls {
-            background: #333;
+            background: white;
             text-shadow: none;
 
             .mejs-time {
-                color: gray;
+                color: lightgray;
+            }
+
+            .mejs-time-float {
+                border: 0;
+            }
+
+            .mejs-time-rail {
+                transform: scale(0.5);
             }
 
             .mejs-time-total {
-                background: #222;
+                background: lightgray;
             }
 
             .mejs-time-loaded {
-                background: #444;
+                background: #bbb;
+            }
+
+            .mejs-time-current {
+                background: #888;
+            }
+
+            .mejs-horizontal-volume-total {
+                background: lightgray;
+            }
+
+            .mejs-horizontal-volume-current {
+                background: #888;
+            }
+
+            .mejs-volume-button button {
+                background: none;
+                position: relative;
+
+                &:before {
+                    content: "\f028"; // volume up icon
+                    height: 16px;
+                    width: 16px;
+                    font-family: FontAwesome;
+                    font-size: 18px;
+                    position: absolute;
+                    left: 0;
+                    color: #bbb;
+                }
+            }
+
+            .mejs-playpause-button {
+                &.mejs-play button:before {
+                    content: "\f04b"; // play icon
+                }
+
+                &.mejs-pause button:before {
+                    content: "\f04c"; // pause icon
+                }
+
+                button {
+                    background: none;
+                    position: relative;
+
+                    &:before {
+                        height: 16px;
+                        width: 16px;
+                        font-family: FontAwesome;
+                        font-size: 18px;
+                        position: absolute;
+                        left: 0;
+                        color: #888;
+                    }
+                }
             }
         }
     }
@@ -227,11 +341,6 @@ button.view-transcript {
     }
 }
 
-.mejs-container {
-    position: absolute;
-    bottom: 0;
-}
-
 #table-of-contents {
     background-color: $BROWN_LIGHT;
     color: $BROWN_DARK;
@@ -252,5 +361,50 @@ button.view-transcript {
     ul, .description {
         width: 50%;
         float: left;
+    }
+}
+
+@media (max-width: 800px) {
+    #table-of-contents {
+        ul, .description {
+            width: 100%;
+            float: none;
+        }
+
+        ul {
+            font-size: 1.5em;
+        }
+    }
+
+    .chapter {
+        .story {
+            height: 80vh;
+        }
+    }
+}
+
+@media (max-width: 480px) {
+    header {
+        h1 {
+            font-size: 2em;
+        }
+
+        .authors {
+            font-size: 0.8em;
+        }
+    }
+
+    nav {
+        display: none;
+    }
+
+    .chapter {
+        h2 {
+            font-size: 2em;
+        }
+
+        .story {
+            height: 60vh;
+        }
     }
 }

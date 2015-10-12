@@ -2,3 +2,23 @@ $BROWN_LIGHT: #d9cdc6;
 $BROWN_DARK: #372318;
 
 $PURPLE_DARK: #260034;
+
+@mixin chapter-colors {
+    .chapter-number {
+        &.chapter1 {
+            background-color: #6c2400;
+        }
+
+        &.chapter2 {
+            background-color: #e18383;
+        }
+
+        &.chapter3 {
+            background-color: #9ac97c;
+        }
+
+        &.chapter4 {
+            background-color: #273156;
+        }
+    }
+}
