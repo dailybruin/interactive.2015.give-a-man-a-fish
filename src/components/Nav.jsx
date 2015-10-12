@@ -8,6 +8,7 @@ const Nav = React.createClass({
 
   render() {
     let chapters = this.props.chapters.map((chapter, index) => {
+      console.log(chapter.released);
       if (chapter.released) {
         let chapterNumberClassName = "chapter-number " + "chapter" + (index + 1);
         return (

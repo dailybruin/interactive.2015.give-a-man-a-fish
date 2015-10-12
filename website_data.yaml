@@ -45,7 +45,7 @@ chapters:
         - file:
           caption:
       transcript: test transcript
-      released: Yes
+      released: 
 acknowledgements: >
     ## Acknowledgements
 

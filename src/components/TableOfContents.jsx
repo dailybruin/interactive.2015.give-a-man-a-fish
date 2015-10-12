@@ -13,7 +13,6 @@ const TableOfContents = React.createClass({
   },
 
   render() {
-    console.log(this.props.description);
     function createMarkup(html) {
       return {__html: html};
     };

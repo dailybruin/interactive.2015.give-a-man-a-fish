@@ -23,7 +23,6 @@ const App = React.createClass({
       $(this).prop('volume', 0); // set initial volume of all videos to zero
       $(this).fracs(function(fracs, previousFracs){
         if (fracs.visible > 0.5) {
-          console.log($(this));
           $(this).stop().animate({'volume': 1}, 2000);
         }
         else

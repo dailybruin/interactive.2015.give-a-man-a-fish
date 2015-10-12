@@ -355,6 +355,18 @@ button.view-transcript {
 
         li {
             padding: 0.5em 0;
+
+            &.unreleased {
+                a {
+                    color: gray;
+                    text-decoration: none;
+                    cursor: default;
+                }
+
+                .chapter-number {
+                    background-color: lightgray;
+                }
+            }
         }
     }
 
