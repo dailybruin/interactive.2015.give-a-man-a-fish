@@ -50,7 +50,7 @@ const Chapter = React.createClass({
             <video src={this.props.chapter.video} autoPlay loop />
           </div>
           <h2>{this.props.chapter.title}</h2>
-          <p className="description">{this.props.chapter.description}</p>
+          <p className="description" dangerouslySetInnerHTML={createMarkup(marked(this.props.chapter.description))}></p>
         </div>
         <div className="story">
           <button className="view-transcript" onClick={this.toggleTranscriptVisible}>
