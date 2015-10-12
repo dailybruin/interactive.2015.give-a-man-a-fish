@@ -390,6 +390,8 @@ button.view-transcript {
 
 @media (max-width: 800px) {
     #table-of-contents {
+        height: initial;
+
         ul, .description {
             width: 100%;
             float: none;

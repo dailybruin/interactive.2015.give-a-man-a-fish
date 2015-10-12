@@ -32,6 +32,7 @@ const App = React.createClass({
   },
 
   render() {
+    console.log(this.state);
     function createMarkup(html) {
       return {__html: html};
     };
