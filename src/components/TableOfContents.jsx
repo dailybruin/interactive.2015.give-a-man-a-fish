@@ -17,7 +17,7 @@ const TableOfContents = React.createClass({
       );
     });
     return (
-      <section className="table-of-contents">
+      <section id="table-of-contents">
         <ul>
           {chapters}
         </ul>

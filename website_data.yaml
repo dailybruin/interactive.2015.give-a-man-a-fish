@@ -1,42 +1,47 @@
 title: Give a Man a Fish
 description: description lorem ispum
 byline: Reporting by Jonaki Mehta. Photos by Sonja Bartlett.
-video:
+video: http://www.quirksmode.org/html5/videos/big_buck_bunny.mp4
 chapters:
-    - title:
+    - title: Chapter 1 title
       description: test description
-      video:
+      video: http://www.quirksmode.org/html5/videos/big_buck_bunny.mp4
       audio:
       photos:
         - file:
           caption:
       transcript: test transcript
-      released:
-    - title:
+      released: Yes
+    - title: Chapter 2 title
       description: test description
-      video:
+      video: http://www.quirksmode.org/html5/videos/big_buck_bunny.mp4
       audio:
       photos:
         - file:
           caption:
       transcript: test transcript
-      released:
-    - title:
+      released: Yes
+    - title: Chapter 3 title
       description: test description
-      video:
+      video: http://www.quirksmode.org/html5/videos/big_buck_bunny.mp4
       audio:
       photos:
         - file:
           caption:
       transcript: test transcript
-      released:
-    - title:
+      released: Yes
+    - title: Chapter 4 title
       description: test description
-      video:
+      video: http://www.quirksmode.org/html5/videos/big_buck_bunny.mp4
       audio:
       photos:
         - file:
           caption:
       transcript: test transcript
-      released:
-acknowledgements: "test **text** here"
+      released: Yes
+acknowledgements: >
+    ## Acknowledgements
+
+    Here are some people we want to acknowledge.
+
+    They are pretty great.

@@ -22,12 +22,16 @@ const App = React.createClass({
       <div id="app">
         <Nav chapters={this.state.chapters} />
         <header>
-          <video src={'/assets/video'+this.state.video} autoPlay loop />
+          <video src={this.state.video} autoPlay loop />
           <h1>{this.state.title}</h1>
-          <h2 dangerouslySetInnerHTML={createMarkup(marked(this.state.description))} />
           <span className="authors">
             {this.state.byline}
           </span>
+          <div className="description"
+               dangerouslySetInnerHTML={createMarkup(marked(this.state.description))} />
+          <div className="continue-arrow">
+            <i className="fa fa-chevron-down"></i>
+          </div>
         </header>
         <TableOfContents chapters={this.state.chapters}
                          description={this.state.description} />

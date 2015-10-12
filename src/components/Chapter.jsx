@@ -1,4 +1,5 @@
 import React from 'react'
+import marked from 'marked'
 
 const Chapter = React.createClass({
 
@@ -21,17 +22,22 @@ const Chapter = React.createClass({
     return (
       <section className="chapter">
         <div className="intro">
-          <video src={'/assets/video/'+this.props.chapter.video} autoPlay loop />
+          <video src={this.props.chapter.video} autoPlay loop />
           <h2>{this.props.chapter.title}</h2>
+          <p className="description">{this.props.chapter.description}</p>
         </div>
         <div className="story">
-          <div dangerouslySetInnerHTML={createMarkup(marked(this.props.chapter.transcript))} />
+          <button className="view-transcript">
+            <i className="fa fa-bars"></i> View transcript
+          </button>
+          <div className="transcript"
+               dangerouslySetInnerHTML={createMarkup(marked(this.props.chapter.transcript))} />
           <div className="slider">
             <ul className="slides">
               {slides}
             </ul>
           </div>
-          <audio src={this.props.chapter.audio} />
+          <audio className="mejs-player" src={this.props.chapter.audio} />
         </div>
 
       </section>
