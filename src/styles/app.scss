@@ -21,7 +21,7 @@ html, body {
 }
 
 body {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Roboto', sans-serif;
     color: white;
     background-color: black;
     text-shadow: 0 0 2px black;
@@ -199,7 +199,7 @@ button.view-transcript {
     }
 
     .intro {
-        padding: 10% 5%;
+        padding: 5%;
         overflow: hidden;
 
         p {
@@ -423,7 +423,7 @@ button.view-transcript {
                 width: 100%;
             }
         }
-        
+
         .story {
             height: 80vh;
         }
