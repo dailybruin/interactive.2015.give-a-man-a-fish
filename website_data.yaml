@@ -12,7 +12,7 @@ description: >
 byline: Reporting by Jonaki Mehta. Photos by Sonja Bartlett.
 video: /assets/video/openingframe.mp4
 chapters:
-    - title: Casting a Line
+    - title: CASTING A LINE
       description: >
 
         In the southern Indian state of Tamil Nadu lies a village called Vadamanappakkam, or Manappakkam for short. Tamil Nadu is known for its welfare programs, aimed at the most economically disadvantaged communities in the state.
@@ -71,7 +71,7 @@ chapters:
           caption:
       transcript: >
 
-        EPISODE 1: Casting a Line
+        EPISODE 1: CASTING A LINE
 
         MEHTA 1: This is Vadamanappakkam, a rural village tucked away in the Tiruvannamalai district of the southern Indian state of Tamil Nadu, where the heat is sweltering nearly year round and the cows graze in slowly withering grasses with cawing crows on their backs. [AMBI of birds/rooster/cows] The near-5,000 residents of Vadamanappakkam – or Manappakkam, for short – have risen well before the sun to begin their day. Some head to one of the village’s many Hindu temples for their daily worship, while others prepare for the day’s work.
 
@@ -130,7 +130,7 @@ chapters:
         (Music by Tony Boardman)
 
       released: Yes
-    - title: Chapter 2 title
+    - title: EPISODE 2
       description: test description
       video: http://www.quirksmode.org/html5/videos/big_buck_bunny.mp4
       audio:
@@ -140,7 +140,7 @@ chapters:
       transcript: >
         test transcript
       released:
-    - title: Chapter 3 title
+    - title: EPISODE 3
       description: test description
       video: http://www.quirksmode.org/html5/videos/big_buck_bunny.mp4
       audio:
@@ -150,7 +150,7 @@ chapters:
       transcript: >
         test transcript
       released:
-    - title: Chapter 4 title
+    - title: EPISODE 4 
       description: test description
       video: http://www.quirksmode.org/html5/videos/big_buck_bunny.mp4
       audio:
