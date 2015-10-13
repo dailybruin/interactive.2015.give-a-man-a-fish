@@ -418,6 +418,12 @@ button.view-transcript {
     }
 
     .chapter {
+        .intro {
+            p {
+                width: 100%;
+            }
+        }
+        
         .story {
             height: 80vh;
         }
@@ -442,12 +448,6 @@ button.view-transcript {
     .chapter {
         h2 {
             font-size: 2em;
-        }
-
-        .intro {
-            p {
-                width: 100%;
-            }
         }
 
         .story {
