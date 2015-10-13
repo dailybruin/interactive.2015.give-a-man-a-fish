@@ -150,7 +150,7 @@ chapters:
       transcript: >
         test transcript
       released:
-    - title: EPISODE 4 
+    - title: EPISODE 4
       description: test description
       video: http://www.quirksmode.org/html5/videos/big_buck_bunny.mp4
       audio:
@@ -161,8 +161,4 @@ chapters:
         test transcript
       released:
 acknowledgements: >
-    ## Acknowledgements
-
-    Here are some people we want to acknowledge.
-
-    They are pretty great.
+    
