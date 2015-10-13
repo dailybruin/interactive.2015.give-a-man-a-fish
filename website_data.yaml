@@ -130,7 +130,7 @@ chapters:
         (Music by Tony Boardman)
 
       released: Yes
-    - title: Chapter 2 title
+    - title: EPISODE 2
       description: test description
       video: http://www.quirksmode.org/html5/videos/big_buck_bunny.mp4
       audio:
@@ -140,7 +140,7 @@ chapters:
       transcript: >
         test transcript
       released:
-    - title: Chapter 3 title
+    - title: EPISODE 3
       description: test description
       video: http://www.quirksmode.org/html5/videos/big_buck_bunny.mp4
       audio:
@@ -150,7 +150,7 @@ chapters:
       transcript: >
         test transcript
       released:
-    - title: Chapter 4 title
+    - title: EPISODE 4 
       description: test description
       video: http://www.quirksmode.org/html5/videos/big_buck_bunny.mp4
       audio:
