@@ -153,8 +153,8 @@ button.view-transcript {
     color: white;
     border: 1px solid rgba(255,255,255, 0.5);
     position: absolute;
-    bottom: 60px;
-    right: 0;
+    top: 0;
+    left: 0;
     cursor: pointer;
     z-index: 100;
     margin: 0.7em;
@@ -222,16 +222,19 @@ button.view-transcript {
             max-width: 100%;
             max-height: calc(100vh - 60px);
             height: auto;
-            padding: 3em 3em 0;
+            padding: 2em 3em 4em;
             margin: 0 auto;
             display: block;
         }
 
         .caption {
-            margin: 0;
-            padding: 1em 2em;
+            position: absolute;
+            bottom: 0;
             color: gray;
             text-shadow: none;
+            left: 0;
+            padding: 0 2em;
+            background-color: white;
         }
     }
 
@@ -387,7 +390,7 @@ button.view-transcript {
 
 #mainsite-refer {
     position: absolute;
-    top: 15px;
+    top: 0;
     left: 0;
     background-color: white;
     padding: 0.5em 0.5em 0.25em;
