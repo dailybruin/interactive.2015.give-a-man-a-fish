@@ -11,7 +11,8 @@ const ChapterList = React.createClass({
   componentDidMount() {
     $('.slider').flexslider({
       animation: 'fade',
-      controlNav: false
+      controlNav: false,
+      slideshow: false
     });
   },
 

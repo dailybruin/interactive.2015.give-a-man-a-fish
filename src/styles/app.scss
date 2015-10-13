@@ -21,7 +21,7 @@ html, body {
 }
 
 body {
-    font-family: 'Hind', sans-serif;
+    font-family: 'Lato', sans-serif;
     color: white;
     background-color: black;
     text-shadow: 0 0 2px black;
@@ -338,6 +338,7 @@ button.view-transcript {
     p {
         max-width: 640px;
         margin: 0 auto;
+        line-height: 1.5;
     }
 }
 
@@ -374,6 +375,10 @@ button.view-transcript {
         width: 50%;
         float: left;
     }
+
+    .description {
+        font-style: italic;
+    }
 }
 
 #mainsite-refer {
@@ -381,7 +386,7 @@ button.view-transcript {
     top: 15px;
     left: 0;
     background-color: white;
-    padding: 0.5em 0.5em 0;
+    padding: 0.5em 0.5em 0.25em;
 
     img {
         width: 100px;
