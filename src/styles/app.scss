@@ -29,6 +29,7 @@ body {
 
 a {
     color: initial;
+    text-decoration: none;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -68,7 +69,7 @@ header {
     text-align: center;
 
     h1 {
-        font-size: 3.5em;
+        font-size: 5em;
         padding-top: 25vh;
     }
 
@@ -199,6 +200,10 @@ button.view-transcript {
     .intro {
         padding: 10% 5%;
         overflow: hidden;
+
+        p {
+            font-style: italic;
+        }
     }
 
     .story {
@@ -217,14 +222,14 @@ button.view-transcript {
             max-width: 100%;
             max-height: calc(100vh - 60px);
             height: auto;
-            padding: 1em 3em 4em;
+            padding: 3em 3em 0;
             margin: 0 auto;
             display: block;
         }
 
         .caption {
             margin: 0;
-            padding: 1em 2em 0;
+            padding: 1em 2em;
             color: gray;
             text-shadow: none;
         }
@@ -342,7 +347,7 @@ button.view-transcript {
 }
 
 #table-of-contents {
-    background-color: $BROWN_LIGHT;
+    background-color: white;
     color: $BROWN_DARK;
     text-shadow: none;
     padding: 10%;
@@ -416,7 +421,7 @@ button.view-transcript {
 @media (max-width: 480px) {
     header {
         h1 {
-            font-size: 2em;
+            font-size: 2.5em;
         }
 
         .authors {
