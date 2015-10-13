@@ -10,7 +10,7 @@ description: >
     This project was made possible by the [Bridget O’Brien Scholarship Foundation](http://rememberingbridget.com/), which has funded UCLA’s student journalists for eight years to cover stories of a global reach and local impact.
 
 byline: Reporting by Jonaki Mehta. Photos by Sonja Bartlett.
-video: http://www.quirksmode.org/html5/videos/big_buck_bunny.mp4
+video: /assets/video/openingframe.mp4
 chapters:
     - title: Casting a Line
       description: >
@@ -26,7 +26,7 @@ chapters:
 
         This episode expands further on how this system has residual effects in this community, and how that interfaces with nonprofit work.  While government aid to low-income communities is vital, nonprofit work comes into play where government aid cannot.
 
-      video: http://www.quirksmode.org/html5/videos/big_buck_bunny.mp4
+      video: /assets/video/episode1.mp4
       audio: http://a.tumblr.com/tumblr_mdb4ykdxxF1qcntxko1.mp3
       photos:
         - file: web._01_DSCF7606.jpg
@@ -139,7 +139,7 @@ chapters:
           caption:
       transcript: >
         test transcript
-      released: Yes
+      released:
     - title: Chapter 3 title
       description: test description
       video: http://www.quirksmode.org/html5/videos/big_buck_bunny.mp4
@@ -149,7 +149,7 @@ chapters:
           caption:
       transcript: >
         test transcript
-      released: Yes
+      released:
     - title: Chapter 4 title
       description: test description
       video: http://www.quirksmode.org/html5/videos/big_buck_bunny.mp4
