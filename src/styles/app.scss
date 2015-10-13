@@ -184,8 +184,8 @@ button.view-transcript {
 
 .chapter-number {
     background-color: black;
-    width: 1.5em;
-    height: 1.5em;
+    width: 1.4em;
+    height: 1.4em;
     display: inline-block;
     text-align: center;
     border-radius: 50%;
@@ -344,6 +344,10 @@ button.view-transcript {
 
     &.visible {
         display: block;
+    }
+
+    br {
+        line-height: 2.5;
     }
 
     p {
