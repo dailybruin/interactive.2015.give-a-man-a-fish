@@ -204,6 +204,8 @@ button.view-transcript {
 
         p {
             font-style: italic;
+            width: 50%;
+            line-height: 1.3;
         }
     }
 
@@ -416,6 +418,12 @@ button.view-transcript {
     }
 
     .chapter {
+        .intro {
+            p {
+                width: 100%;
+            }
+        }
+        
         .story {
             height: 80vh;
         }
