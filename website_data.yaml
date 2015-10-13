@@ -12,7 +12,7 @@ description: >
 byline: Reporting by Jonaki Mehta. Photos by Sonja Bartlett.
 video: /assets/video/openingframe.mp4
 chapters:
-    - title: Casting a Line
+    - title: CASTING A LINE
       description: >
 
         In the southern Indian state of Tamil Nadu lies a village called Vadamanappakkam, or Manappakkam for short. Tamil Nadu is known for its welfare programs, aimed at the most economically disadvantaged communities in the state.
@@ -27,12 +27,12 @@ chapters:
         This episode expands further on how this system has residual effects in this community, and how that interfaces with nonprofit work.  While government aid to low-income communities is vital, nonprofit work comes into play where government aid cannot.
 
       video: /assets/video/episode1.mp4
-      audio: http://a.tumblr.com/tumblr_mdb4ykdxxF1qcntxko1.mp3
+      audio: /assets/audio/1.mp3
       photos:
         - file: web._01_DSCF7606.jpg
           caption: A local farmer herds oxen through the agricultural fields in Vadamanappakkam, where farming is one of the main professions. This village is composed of about 5,000 residents, approximately 2,500 of whom are working members.
-        - file: 
-          caption: 
+        - file:
+          caption:
         - file: web._03_DSCF8938.jpg
           caption: Several Hindu temples are located in Vadamanappakkam, as the majority of village residents practice Hinduism. Most villagers visit temples designated to their caste. This is not strictly enforced, but an unwritten social norm.
         - file: web._04_Diptych.jpg
@@ -71,7 +71,7 @@ chapters:
           caption:
       transcript: >
 
-        EPISODE 1: Casting a Line
+        EPISODE 1: CASTING A LINE
 
         MEHTA 1: This is Vadamanappakkam, a rural village tucked away in the Tiruvannamalai district of the southern Indian state of Tamil Nadu, where the heat is sweltering nearly year round and the cows graze in slowly withering grasses with cawing crows on their backs. [AMBI of birds/rooster/cows] The near-5,000 residents of Vadamanappakkam – or Manappakkam, for short – have risen well before the sun to begin their day. Some head to one of the village’s many Hindu temples for their daily worship, while others prepare for the day’s work.
 
@@ -130,7 +130,7 @@ chapters:
         (Music by Tony Boardman)
 
       released: Yes
-    - title: Chapter 2 title
+    - title: EPISODE 2
       description: test description
       video: http://www.quirksmode.org/html5/videos/big_buck_bunny.mp4
       audio:
@@ -140,7 +140,7 @@ chapters:
       transcript: >
         test transcript
       released:
-    - title: Chapter 3 title
+    - title: EPISODE 3
       description: test description
       video: http://www.quirksmode.org/html5/videos/big_buck_bunny.mp4
       audio:
@@ -150,7 +150,7 @@ chapters:
       transcript: >
         test transcript
       released:
-    - title: Chapter 4 title
+    - title: EPISODE 4
       description: test description
       video: http://www.quirksmode.org/html5/videos/big_buck_bunny.mp4
       audio:
@@ -161,8 +161,4 @@ chapters:
         test transcript
       released:
 acknowledgements: >
-    ## Acknowledgements
-
-    Here are some people we want to acknowledge.
-
-    They are pretty great.
+    

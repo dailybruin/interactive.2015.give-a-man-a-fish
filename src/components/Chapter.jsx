@@ -30,8 +30,8 @@ const Chapter = React.createClass({
     let slides = this.props.chapter.photos.map((photo, index) => {
       return (
         <li key={index}>
-          <p className="caption">{photo.caption}</p>
           <img src={'/assets/img/'+(this.props.index+1)+'/'+photo.file} />
+          <p className="caption">{photo.caption}</p>
         </li>
       );
     });
