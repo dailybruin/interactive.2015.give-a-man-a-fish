@@ -67,8 +67,6 @@ chapters:
           caption: One free meal is provided to students each school day through one of the state government’s schemes called the Midday Meal Scheme. This program incentivizes many students to attend school, especially those who are from the lowest income communities.
       transcript: >
 
-        EPISODE 1: CASTING A LINE
-
         MEHTA 1: This is Vadamanappakkam, a rural village tucked away in the Tiruvannamalai district of the southern Indian state of Tamil Nadu, where the heat is sweltering nearly year round and the cows graze in slowly withering grasses with cawing crows on their backs. [AMBI of birds/rooster/cows] The near-5,000 residents of Vadamanappakkam – or Manappakkam, for short – have risen well before the sun to begin their day. Some head to one of the village’s many Hindu temples for their daily worship, while others prepare for the day’s work.
 
         It’s here that Project RISHI, a student organization founded at UCLA, first began to work toward its aim of sustainable development in rural India. RISHI stands for Rural India Social and Health Improvement. The student-run nonprofit has created concrete change in Manappakkam through various projects, but the lack of continuity in its presence and factors that are a result of RISHI being an outside agent based abroad also pose constraints. For instance, the group had aimed to collect 88 follow-up surveys in accordance with its methodology, but they were only able to complete 25 with the given time. The group has also come head-to-head with complex cultural issues such as the residual effects of the caste system in India, which is an ancient system of social classification. While some progress has been made due to its presence, other complexities are often overlooked.
@@ -127,15 +125,98 @@ chapters:
 
       released: Yes
     - title: EPISODE 2
-      description: test description
-      video: http://www.quirksmode.org/html5/videos/big_buck_bunny.mp4
-      audio:
+      description: >
+
+        In the first part of their trip, four Project RISHI members performed a skit on handwashing to students at the local high school in order to teach students about the importance of handwashing and hygiene. This demonstration was held in response to the deficiencies of their last project that attempted to address hygiene.
+
+
+        In addition to exploring past projects, this episode traces Dr. Eri Srivatsan's journey from the outskirts of the village to America, and how his determination for giving back to his ancestral village translated into the UCLA chapter of Project RISHI. We also discuss the evolving needs of the community and how a nonprofit like Project RISHI deals with such changes.
+
+      video: /assets/video/episode2.mp4
+      audio: /assets/audio/2.mp3
       photos:
-        - file:
+        - file: web.DSCF6759.jpg
+          caption:
+        - file: web._01.DRSRI.jpg
+          caption:
+        - file: web._02_diptych.jpg
+          caption:
+        - file: web._03_DSCF6583.jpg
+          caption:
+        - file: web._04_triptych.jpg
+          caption:
+        - file: web._05_DSCF7482.jpg
+          caption:
+        - file: web._06_DSCF6849.jpg
+          caption:
+        - file: web._07_DSCF6920.jpg
+          caption:
+        - file: web._08_diptych.jpg
+          caption:
+        - file: web._09_DSCF7206.jpg
+          caption:
+        - file: web._10_DSCF7260.jpg
+          caption:
+        - file: web._11_DSCF7285.jpg
+          caption:
+        - file: web._12_DSCF6972.jpg
+          caption:
+        - file: web._13_DSCF7380.jpg
+          caption:
+        - file: web._14_DSCF6726.jpg
+          caption:
+        - file: web._15_DSCF7163.jpg
+          caption:
+        - file: web._16_DSCF8106.jpg
+          caption:
+        - file: web._17_DSCF6763.jpg
+          caption:
+        - file: web._18_DSCF7412.jpg
           caption:
       transcript: >
-        test transcript
-      released:
+
+        [AMBI of hand-washing]
+
+        MEHTA 1: During the first part of their trip, four members of Project RISHI performed a skit to groups of schoolchildren in the village to demonstrate the importance of handwashing. Health and hygiene have been central goals of RISHI’s past projects from the beginning, as the namesake implies, with the medical clinic being one of the earliest and ongoing projects that addresses health in many aspects. Dr. Eri Srivatsan, whose ancestral home stood where the medical clinic is today, faced many of the challenges that lack of access to basic needs creates when he lived in a town in the outskirts of the village called Ranipet. From his own experiences and the hardships he faced, he felt that he wanted to help his ancestral village in any way he could once he found success in the United States.
+
+        SRIVATSAN 1: I mean I came from a lower-middle class family at that time. I was the fifth child of six, so (we were) living in a small place. Room like this, kitchen and a small bathroom. And so we've come a long way. And most of the time, I had even the dhoti (traditional Hindu male clothing garment). And of course sandals, sometimes. I don't know if I had sandals until sixth or seventh grade – no sandals even. So I went to the city, Madras. 12th grade. Everything was in English. I learned English from sixth grade onwards. But it was difficult. I go there and I don't have anything.
+
+        MEHTA 2: Srivatsan was the first to leave Ranipet, where he spent most of his childhood. He went to Madras, or Chennai as it is now called, to work toward a graduate degree.
+
+        SRIVATSAN 2: Oh yeah, I was one of the first ones from Ranipet. First ones, to go there (to Chennai). It was difficult. I went there and I cried. The city is a huge place. The day I went there, I thought, "Why did I do that?" I was a 16-year-old, 17-year-old boy. I was crying. I didn't know what to do.
+
+        MEHTA 3: Dr. Srivatsan’s older brother, who still lives in Ranipet in the house in which they grew up, serves as a liaison for UCLA’s RISHI chapter and spoke about Dr. Srivatsan’s commitment to the village.
+
+        VASUDEVAN 1: He wants to give everything to the poor. He didn’t have anything (back then). He wore a dhoti just like this one.
+
+        MEHTA 4: After completing his doctoral degree in biochemistry in the city of Bangalore, Dr. Srivatsan aimed to leave the country for the U.S., which brought him to UCLA for his postgraduate studies in 1977. Eventually, after working with several other universities, Srivatsan returned for a position as a medical professor of surgery at UCLA in 1995.
+
+        SRIVATSAN 3: One of these days I'll have to write a biography. I was the first one to come out of Ranipet outside, here. First to go to Chennai. First to go to Bangalore. And then of course, abroad.
+
+        MEHTA 5: While abroad, Srivatsan maintained a strong tie with his family and his home, returning for visits when possible and giving back what he could to his home village of Vadamanappakkam. Then, in 2005, four students working under Dr. Srivatsan at the time – Grant Lee, Ravi Menghani, Aswin Sekar and Daniel Choi – showed interest in starting a nonprofit doing work in rural India. They collaborated with Srivatsan to begin Project RISHI, and Srivatsan provided the necessary ties the students needed with the village to work with them directly.
+
+        SRIVATSAN 4: When Grant and Ravi said “Where to start?”, I said I don't know what to do. But I knew the village needs it. Now we've come a long way, from 2005 to 2015. The village, I mean (there are) schools, there are restrooms for women, a playground, three days a week there's a senior physician (who) comes around and treats people, medication comes from Chennai free of cost to villagers.
+
+        MEHTA 6: Project RISHI continues to implement new projects, and as mentioned earlier, the hand-washing demonstration was one of them this year. But in order to come to the conclusion that a demo would be needed, RISHI learned from past attempts to address hygiene. Co-President Suruchi Salgar was unable to make this year's trip due to unforeseen circumstances, but visited the village last year with her peers.
+
+        SALGAR 1: There was one issue with one of our projects, with the soap project. What happened was, we were giving kids soap in schools because a lot of people couldn’t afford it, and then we found out that a lot of kids were selling the soap and buying candy with their money, which is like, adorable but also kind of problematic at the same time. And it never came out with all the talks with the teachers and the principals over the phone, but sort of once you’re there, you realize things like this happen and how I guess certain things actually are implemented.
+
+        MEHTA 7: Salgar brings up an issue that nonprofit work often raises. In trying to introduce new resources to a community with age-old traditions, external organizations do not only face resistance to change, but also innocent incidents – such as the one Salgar described – actually become problematic in the long run. Professor Robert Spich, spoke to me over Skype about the difficulty surrounding the introduction of ideas like hand-washing in a rural village.
+
+        SPICH 1: Can you imagine if they sold us cell phones and they never told us how they work? Obviously products need to be explained. Parents are very concerned about health of their children around the world. There is no country around the world where parents don’t care about the health of their kids. So if you understand who has a stake in the use of soap, you sell, you teach, you educate around the importance of this issue. You attribute it to larger things. Less sickness – less sickness means you get to go to school and get a free meal, or you get a free book or something else you want. You show them it’s related to a larger set of outcomes they value. There are still gonna be 10 who sell it for candy. You never get 100 percent on anything.
+
+        MEHTA 8: Though RISHI had to stop distributing soaps, they attempted a new approach to the same problem. Instead of distributing more soaps, the first set of UCLA students who visited the village performed an educational skit based on hand-washing to raise awareness about the diseases that can result from lack of hygiene.
+        [AMBI of the Hand-washing Demo]
+
+        REDDY 1: We want to do something that is maintained. Next year, we want to do more education programs about cleanliness and hygiene.
+
+        MEHTA 9: Archana Reddy, co-president of Project RISHI, and her fellow members found that education is a major component of sustainable development. While education in the context of introducing change to a community, such as with the introduction of soaps, is vital in implementing long-lasting change, access to education is another focus of this group.
+
+        REDDY 2:  I think the educational aspect should be a big focus right now. For a lot of the students, it will be very cyclical if they don’t learn anything new. It’s important for them to be able to expand out of the village, and if they can’t do that, then they're not contributing anything new here.
+
+        MEHTA 10: While education in the village has improved, it is still a serious underlying issue that prevents young students from pursuing a college degree and getting a well-paying job. This is a major focus of RISHI’s efforts, as we will see later. In the next episode, we look at one of Project RISHI’s current initiatives and how its follow-up work played out during its visit to Vadamanappakkam this summer.
+
+      released: Yes
     - title: EPISODE 3
       description: test description
       video: http://www.quirksmode.org/html5/videos/big_buck_bunny.mp4
