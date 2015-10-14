@@ -322,7 +322,17 @@ button.view-transcript {
                         font-size: 18px;
                         position: absolute;
                         left: 0;
-                        color: #888;
+                        color: $PURPLE_DARK;
+                    }
+
+                    &:after {
+                        // not currently working
+                        content: "Play audio story";
+                        text-transform: uppercase;
+                        background-color: $PURPLE_DARK;
+                        color: white;
+                        padding: 0.5em;
+                        font-size: 0.7em;
                     }
                 }
             }
