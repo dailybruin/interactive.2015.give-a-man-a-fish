@@ -245,6 +245,7 @@ button.view-transcript {
     .mejs-container {
         position: absolute;
         left: 0;
+        -webkit-transform: scale(2);
         transform: scale(2);
         left: 25vw;
         bottom: 15px;
@@ -263,6 +264,7 @@ button.view-transcript {
             }
 
             .mejs-time-rail {
+                -webkit-transform: scale(0.5);
                 transform: scale(0.5);
             }
 
