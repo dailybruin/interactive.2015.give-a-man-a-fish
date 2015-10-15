@@ -218,12 +218,35 @@ chapters:
         (Music by Tony Boardman)
 
       released: Yes
-    - title: EPISODE 3
-      description: test description
-      video: http://www.quirksmode.org/html5/videos/big_buck_bunny.mp4
+    - title: IN CONSEQUENCE
+      description: >
+        test description
+      video: /video/assets/episode3.mp4
       audio:
       photos:
-        - file:
+        - file: Diptych_01.jpg
+          caption:
+        - file: Diptych_02.jpg
+          caption:
+        - file: bob.india.methodology.edit2.copy.forweb.png
+          caption:
+        - file: web._03_DSCF7676.jpg
+          caption:
+        - file: web._04_DSCF6840.jpg
+          caption:
+        - file: web._05_DSCF8640.jpg
+          caption:
+        - file: web._06_DSCF8334.jpg
+          caption:
+        - file: web._07_DSCF8369.jpg
+          caption:
+        - file: web._08_DSCF8361.jpg
+          caption:
+        - file: web._09_DSCF7042.jpg
+          caption:
+        - file: web._10_DSCF8400.jpg
+          caption:
+        - file: web._11_IMG_8485.jpg
           caption:
       transcript: >
         test transcript
