@@ -317,16 +317,52 @@ chapters:
         MEHTA 11: As Vembusubramanian said, everything is talked about in a village as small and tightly knit as this one. The cookstove project is just one of many instances that is demonstrative of the kinds of roadblocks that outside agents face when entering such communities. Though the sensitivity of each situation is difficult to predict, such complexities have risen in countless communities in which an external organization is present.
 
         In our next and final episode, we discuss some of the concerns the villagers themselves express as well as the ways in which RISHI has impacted their community.
-    
+
     (Music by Tony Boardman)
 
       released: Yes
-    - title: EPISODE 4
+    - title: THE GROUND UP
       description: test description
-      video: http://www.quirksmode.org/html5/videos/big_buck_bunny.mp4
-      audio:
+      video: /assets/video/episode4.mp4
+      audio: /assets/audio/4.mp3
       photos:
-        - file:
+        - file: web._01_DSCF8880.jpg
+          caption:
+        - file: web._02_DSCF8610.jpg
+          caption:
+        - file: web._03_DSCF8910.jpg
+          caption:
+        - file: web._04_DSCF8569.jpg
+          caption:
+        - file: web._05_DSCF8745.jpg
+          caption:
+        - file: web._06_DSCF8868.jpg
+          caption:
+        - file: web._07_DSCF8759.jpg
+          caption:
+        - file: web._08_DSCF7732.jpg
+          caption:
+        - file: web._09_DSCF7710.jpg
+          caption:
+        - file: web._10_DSCF8732.jpg
+          caption:
+        - file: web._11_DSCF6890.jpg
+          caption:
+        - file: web._12_DSCF6808.jpg
+          caption:
+        - file: web._13_DSCF6719.jpg
+          caption:
+        - file: web._14_DSCF8813.jpg
+          caption:
+        - file: web._15_DSCF6784.jpg
+          caption:
+        - file: web._16_diptych.jpg
+          caption:
+        - file: web._17_DSCF8950.jpg
+          caption:
+        - file: web._18_DSCF8851.jpg
+          caption:
+        - file: web._19_triptych.jpg
           caption:
       transcript: >
         test transcript
