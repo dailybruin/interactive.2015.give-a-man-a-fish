@@ -147,8 +147,15 @@ footer {
         line-height: 2.5;
     }
 
+    div#acknowledgements {
+        max-width: 960px;
+        margin: 0 auto;
+        line-height: 1.4;
+    }
+
     .copyright {
         font-size: 0.8em;
+        text-align: center;
     }
 }
 

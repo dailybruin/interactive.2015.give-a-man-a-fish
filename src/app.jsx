@@ -62,7 +62,7 @@ const App = React.createClass({
                          description={this.state.description} />
         <ChapterList chapters={this.state.chapters} />
         <footer>
-          <section id="acknowledgements" dangerouslySetInnerHTML={createMarkup(marked(this.state.acknowledgements))} />
+          <div id="acknowledgements" dangerouslySetInnerHTML={createMarkup(marked(this.state.acknowledgements))} />
           <p className="copyright">© 2015 Daily Bruin</p>
         </footer>
       </div>
