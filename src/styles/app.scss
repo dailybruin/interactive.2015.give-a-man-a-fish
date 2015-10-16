@@ -140,9 +140,12 @@ nav#menu {
 }
 
 footer {
-    text-align: center;
     padding: 2em;
     background-color: $PURPLE_DARK;
+
+    br {
+        line-height: 2.5;
+    }
 
     .copyright {
         font-size: 0.8em;
