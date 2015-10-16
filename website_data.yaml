@@ -322,7 +322,14 @@ chapters:
 
       released: Yes
     - title: THE GROUND UP
-      description: test description
+      description: >
+
+        Nonprofit organizations must take many factors into consideration before entering a village such as Vadamanappakkam. Project RISHI’s presence, according to the villagers we hear from in this episode, has brought positive influence to the village.
+
+        However, RISHI has also neglected certain intricacies of village life and may reinforce pre-existing divisions that contribute to stark disparities between sectors of the village.
+
+        Residents of the village and experts share opinions on RISHI's work in Vadamanappakkam.
+
       video: /assets/video/episode4.mp4
       audio: /assets/audio/4.mp3
       photos:
@@ -366,5 +373,5 @@ chapters:
           caption:
       transcript: >
         test transcript
-      released:
+      released: Yes
 acknowledgements: >
