@@ -41,7 +41,7 @@ const App = React.createClass({
         <Nav chapters={this.state.chapters} />
         <header>
           <div className="video-wrapper">
-            <video src={this.state.video} autoPlay loop />
+            <video src={this.state.headerVideo} autoPlay loop />
           </div>
           <a href="http://dailybruin.com" id="mainsite-refer">
             <img src="/assets/img/db_logo.svg" />
@@ -62,6 +62,9 @@ const App = React.createClass({
                          description={this.state.description} />
         <ChapterList chapters={this.state.chapters} />
         <footer>
+          <div className="video-wrapper">
+            <video src={this.state.footerVideo} autoPlay loop />
+          </div>
           <div id="acknowledgements" dangerouslySetInnerHTML={createMarkup(marked(this.state.acknowledgements))} />
           <p className="copyright">© 2015 Daily Bruin</p>
         </footer>
