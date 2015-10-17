@@ -12,7 +12,8 @@ description: >
     This project was made possible by the [Bridget O’Brien Scholarship Foundation](http://rememberingbridget.com/), which has funded UCLA’s student journalists for eight years to cover stories of a global reach and local impact.
 
 byline: Reporting by Jonaki Mehta. Photos by Sonja Bartlett.
-video: /assets/video/openingframe.mp4
+headerVideo: /assets/video/openingframe.mp4
+footerVideo: /assets/video/ack.mp4
 chapters:
     - title: CASTING A LINE
       description: >

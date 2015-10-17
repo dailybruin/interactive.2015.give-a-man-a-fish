@@ -62,7 +62,7 @@ header, section, footer {
     }
 }
 
-header, #table-of-contents, .chapter .intro, .chapter .story {
+header, footer, #table-of-contents, .chapter .intro, .chapter .story {
     position: relative;
     height: 100vh;
 }
@@ -141,7 +141,7 @@ nav#menu {
 
 footer {
     padding: 2em;
-    background-color: $PURPLE_DARK;
+    overflow: hidden;
 
     br {
         line-height: 2.5;
@@ -151,11 +151,20 @@ footer {
         max-width: 960px;
         margin: 0 auto;
         line-height: 1.4;
+        height: calc(100% - 1em);
+        overflow-y: auto;
+        margin-bottom: 1em;
+    }
+
+    .video-wrapper video {
+        opacity: 0.6;
     }
 
     .copyright {
         font-size: 0.8em;
         text-align: center;
+        margin: 0;
+        opacity: 0.65;
     }
 }
 
