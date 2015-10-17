@@ -148,16 +148,15 @@ footer {
     }
 
     div#acknowledgements {
-        max-width: 960px;
+        max-width: 640px;
         margin: 0 auto;
-        line-height: 1.4;
+        line-height: 1.5;
         height: calc(100% - 1em);
         overflow-y: auto;
         margin-bottom: 1em;
-    }
-
-    .video-wrapper video {
-        opacity: 0.6;
+        padding: 0.5em 1.5em;
+        border: 1px solid rgba(255,255,255,0.2);
+        background-color: rgba(0,0,0, 0.5);
     }
 
     .copyright {
